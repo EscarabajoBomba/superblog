@@ -3,25 +3,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color:rgb(207, 253, 249);">
+<body >
     <ul class="menu">
         <li><a class="enlace" href="index.html">Inicio</a></li>
         <li><a class="enlace" href="contacto.html">Contacto</a></li>
         <li><a class="enlace" href="#">Acerca de</a></li>
     </ul>
-    <H1 style="text-align: center;"><strong>Contactanos</strong></H1>
-    <div style="position: relative; padding-left: 25%; padding-right: 25%; ">
-        <form action="#" style="background-color: lightskyblue; text-align: center;">
+    
+    <div class="contenedorpadre">
+        <H1 ><strong>Contactanos</strong></H1>
+        <div class="caja">
+            <form action="#">
             <fieldset >
                 <legend >Escribenos completando los datos</legend>
                 <label for="Nombre">Nombre</label>
-                <input type="text" placeholder="Nombre" >
-                <hr>
+                <input type="text" placeholder="Nombre" >               
                 <label for="email">Correo</label>
                 <input type="email" placeholder="tucorreo@ejemplo.com">
-                <hr>
                 <label for="comentario">Comentario</label>
                 <textarea name="area" id="comentario" cols="30" rows="6" placeholder="Comentarios, dudas, sugerencias, peticiones..."></textarea>
                 <br/>
@@ -31,14 +32,16 @@
                 <input type="submit" id="boton-enviar" value="Enviar">
             </fieldset>
         </form>
+        </div>
     </div>
     <br />
-    <div style="text-align: center;background-color: lightblue;">
+    <footer>
         <p>O contactame en mis redes sociales (cuando las tenga)</p>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="" id="linkdinlink" class="fa fa-linkedin"></a>
+        <a href="https://github.com/EscarabajoBomba/superblog" class="fa fa-github"> </a>
+    </footer>
         
-        <a href="">Twitter</a>
-        <a href="">Linkdin</a>
-        <a href="">Github</a>
-    </div>
+    
 </body>
 </html>
