@@ -38,7 +38,6 @@ li:hover{
 }
 h1{
     text-align: center;
-
 }
 
 /* El footer que las paginas comparten */
@@ -48,6 +47,9 @@ footer{
   background-color: rgb(54, 51, 51);
   margin-left: 0;
   margin-bottom: 0;
+  
+  width: 100%;
+  display: inline-block;
 }
 footer p{
   display: inline-block;
@@ -103,3 +105,32 @@ input[type=submit]{
   text-align: center;
 }
 
+/*Elementos div de pagina home*/
+
+.columna1{
+  position: relative;
+  left: 350px;
+  width: 350px;
+  height: 600px;
+  float: left; 
+} 
+
+ .columna2{ 
+  position: relative;
+  left: 400px;
+  width: 350px;
+  height: 600px;
+  display: inline-block;
+  float: left;
+} 
+
+.columna3{
+  position: relative;
+  left: 450px;
+  width: 350px;
+  height: 600px;
+  display: inline-block;
+  float: left;
+} 
+
+ 
