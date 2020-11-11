@@ -6,7 +6,7 @@ body{
 .menu {
     width: 100%;
     list-style-type: none;
-    overflow: hidden;
+    overflow:  hidden;
     text-align:left;
     background-color: rgb(54, 51, 51);
     left: 0;
@@ -38,6 +38,7 @@ li:hover{
 }
 h1{
     text-align: center;
+    font-size: 38px; 
 }
 
 /* El footer que las paginas comparten */
@@ -61,7 +62,7 @@ footer a{
     padding: 10px;
     font-size: x-large;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     display: inline-block;
 }
 .fa {
@@ -106,18 +107,22 @@ input[type=submit]{
 }
 
 /*Elementos div de pagina home*/
-
-.columna1{
+img{
+  width: 100%;
+  height: 40%; 
+}
+.columna1 {
   position: relative;
-  left: 350px;
+  left: 10%;
   width: 350px;
   height: 600px;
-  float: left; 
+  float: left;
+  overflow: auto;
 } 
 
  .columna2{ 
   position: relative;
-  left: 400px;
+  left: 13%;
   width: 350px;
   height: 600px;
   display: inline-block;
@@ -126,7 +131,7 @@ input[type=submit]{
 
 .columna3{
   position: relative;
-  left: 450px;
+  left: 16%;
   width: 350px;
   height: 600px;
   display: inline-block;
