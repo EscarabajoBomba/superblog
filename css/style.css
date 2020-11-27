@@ -1,7 +1,7 @@
 @charset "utf-8";
-body{
+/*body{
   background-color: eee;
-}
+}  */
 /* esta parte es para el menu que las paginas comparten */
 .menu {
     width: 100%;
@@ -13,7 +13,7 @@ body{
     top: 0;
     margin: 0;
     padding: 0;
-    position: fixed;
+    position: absolute;
   }
 
   
@@ -30,15 +30,15 @@ body{
     text-align: center;
     display: block;
 }
-li:hover{
+/*li:hover{
     background-color: rgb(24, 24, 24);
 }
 .contenedorpadre{
   margin-top: 55px;
-}
+}   */
 h1{
     text-align: center;
-    font-size: 38px; 
+    font-size: 42px; 
 }
 
 /* El footer que las paginas comparten */
@@ -72,14 +72,44 @@ footer a{
   text-align: center;
   text-decoration: none;
 }
+.fa-home,.fa-envelope,.fa-user-circle-o{
+  font-size: 38px;
+  text-align: left;
+  padding: 3px;
 
+}
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/*.fas {
+  padding: 20px;
+  font-size: 45px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-home{
+  font-family: "Font Awesome 5 Free";
+  content: "\f015";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}*/
 /* A partir de aqui es para el formulario de contacto.html */
 
 .caja{
   background-color: white;
   /* padding: 12px 20px; */
   border-radius: 6px;
-  box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
   width: 70%;
   margin-left: 15%;
