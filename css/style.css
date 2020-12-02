@@ -72,7 +72,7 @@ footer a{
   text-align: center;
   text-decoration: none;
 }
-.fa-home,.fa-envelope,.fa-user-circle-o{
+.fa-home,.fa-envelope,.fa-user-circle-o, .fa-bars{
   font-size: 38px;
   text-align: left;
   padding: 3px;
